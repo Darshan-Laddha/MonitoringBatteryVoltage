@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+#sign_up{
+	width:100px;
+	color:blue;
+	 position: absolute;
+     top: 150px;
+	 
+}
+#sign_in{
+	width:100px;
+	color:blue;
+	 position: absolute;
+     top: 190px;
+}
