@@ -38,7 +38,7 @@ public class VoltageController {
 	public ResponseEntity add_data_in_sql(@RequestBody String vehicle_data) {
 		
 		String single_data[]=vehicle_data.split(";");
-		//System.out.println(single_data[0]);
+		System.out.println(single_data[0]);
 		LocalDateTime ldt=LocalDateTime.now();
 		int first=single_data[0].indexOf("'");
 		//System.out.println(first);
